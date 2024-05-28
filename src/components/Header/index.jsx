@@ -9,7 +9,7 @@ import {
 } from 'react-bootstrap';
 import styles from './Header.module.scss';
 
-const Header = () => {
+export const Header = () => {
   return (
     <header className={styles.root}>
       <Container className={styles.container}>
@@ -57,5 +57,3 @@ const Header = () => {
     </header>
   );
 };
-
-export default Header;

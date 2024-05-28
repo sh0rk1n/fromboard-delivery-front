@@ -1,0 +1,40 @@
+@import '../../scss/variables';
+
+.root {
+  h1 {
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    line-height: 120%;
+    color: $gray-900;
+  }
+}
+
+.benefits {
+  display: flex;
+  margin: 24px 0 60px 0;
+  img {
+    width: 136px;
+    height: 136px;
+    padding-right: 24px;
+  }
+  div {
+    margin-top: 12px;
+
+    h2 {
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 133%;
+      color: $gray-900;
+      margin-bottom: 12px;
+    }
+
+    p {
+      width: 300px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 143%;
+      color: $gray-900;
+    }
+  }
+}

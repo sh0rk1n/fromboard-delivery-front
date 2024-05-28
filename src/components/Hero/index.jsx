@@ -9,7 +9,7 @@ import {
   Row,
 } from 'react-bootstrap';
 import styles from './Hero.module.scss';
-const Hero = () => {
+export const Hero = () => {
   return (
     <section className={styles.root}>
       <Container className={styles.container}>
@@ -149,5 +149,3 @@ const Hero = () => {
     </section>
   );
 };
-
-export default Hero;

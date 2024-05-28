@@ -1,12 +1,21 @@
-import { Container } from 'react-bootstrap';
-import Header from './components/Header';
-import Hero from './components/Hero';
+import {
+  Header,
+  Hero,
+  Benefits,
+  Garanty,
+  Reviews,
+  ContactForm,
+} from './components';
 
 function App() {
   return (
     <>
       <Header />
       <Hero />
+      <Benefits />
+      <Garanty />
+      <Reviews />
+      <ContactForm />
     </>
   );
 }
