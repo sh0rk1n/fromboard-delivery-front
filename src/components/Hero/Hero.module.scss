@@ -107,6 +107,9 @@
     font-size: 16px;
     line-height: 150%;
     color: $gray-50;
+    &:hover {
+      background: $purple-500;
+    }
   }
   @media (min-width: 1800px) {
     width: 756px;
@@ -129,11 +132,4 @@
       width: 606px;
     }
   }
-}
-
-.input {
-  margin-bottom: 24px;
-  border: 2px solid $gray-900;
-  border-radius: 4px;
-  color: $gray-400;
 }

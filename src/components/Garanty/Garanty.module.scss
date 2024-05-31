@@ -50,5 +50,8 @@
     font-size: 16px;
     line-height: 150%;
     color: $gray-50;
+    &:hover {
+      background: $purple-500;
+    }
   }
 }

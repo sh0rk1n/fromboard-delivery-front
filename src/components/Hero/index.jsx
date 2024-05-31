@@ -9,6 +9,7 @@ import {
   Row,
 } from 'react-bootstrap';
 import styles from './Hero.module.scss';
+import form from '../ContactForm/ContactForm.module.scss';
 export const Hero = () => {
   return (
     <section className={styles.root}>
@@ -41,7 +42,7 @@ export const Hero = () => {
                 <FloatingLabel
                   controlId="floatingInput"
                   label="Имя"
-                  className={styles.input}
+                  className={form.input}
                 >
                   <Form.Control type="name" placeholder="Danil" />
                 </FloatingLabel>
@@ -51,7 +52,7 @@ export const Hero = () => {
                     <FloatingLabel
                       controlId="floatingPassword"
                       label="Почта"
-                      className={styles.input}
+                      className={form.input}
                     >
                       <Form.Control type="text" placeholder="Почта" />
                     </FloatingLabel>
@@ -60,7 +61,7 @@ export const Hero = () => {
                     <FloatingLabel
                       controlId="floatingPassword"
                       label="Телефон"
-                      className={styles.input}
+                      className={form.input}
                     >
                       <Form.Control type="password" placeholder="Password" />
                     </FloatingLabel>{' '}
@@ -71,7 +72,7 @@ export const Hero = () => {
                     <FloatingLabel
                       controlId="floatingPassword"
                       label="Почта"
-                      className={styles.input}
+                      className={form.input}
                     >
                       <Form.Control
                         type="password"
@@ -84,7 +85,7 @@ export const Hero = () => {
                     <FloatingLabel
                       controlId="floatingPassword"
                       label="Телефон"
-                      className={styles.input}
+                      className={form.input}
                     >
                       <Form.Control type="password" placeholder="Password" />
                     </FloatingLabel>{' '}
@@ -96,7 +97,7 @@ export const Hero = () => {
                     <FloatingLabel
                       controlId="floatingPassword"
                       label="Почта"
-                      className={styles.input}
+                      className={form.input}
                     >
                       <Form.Control
                         type="password"
@@ -109,7 +110,7 @@ export const Hero = () => {
                     <FloatingLabel
                       controlId="floatingPassword"
                       label="Телефон"
-                      className={styles.input}
+                      className={form.input}
                     >
                       <Form.Control type="password" placeholder="Password" />
                     </FloatingLabel>{' '}
@@ -120,7 +121,7 @@ export const Hero = () => {
                     <FloatingLabel
                       controlId="floatingPassword"
                       label="Почта"
-                      className={styles.input}
+                      className={form.input}
                     >
                       <Form.Control
                         type="password"
@@ -133,7 +134,7 @@ export const Hero = () => {
                     <FloatingLabel
                       controlId="floatingPassword"
                       label="Телефон"
-                      className={styles.input}
+                      className={form.input}
                     >
                       <Form.Control type="password" placeholder="Password" />
                     </FloatingLabel>{' '}
