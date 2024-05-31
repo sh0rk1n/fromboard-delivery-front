@@ -13,8 +13,8 @@ export const ContactForm = () => {
     <section className={styles.root}>
       <Container className={styles.container}>
         <h1>Остались вопросы?</h1>
-        <div style={{ padding: '0 490px' }}>
-          <Row className="d-flex" xxl={2} lg={2}>
+        <div className={styles.wrappper}>
+          <Row className="d-flex" xxl={2} lg={2} sm={2}>
             <Col xxl={6}>
               <FloatingLabel
                 controlId="floatingPassword"
@@ -34,7 +34,7 @@ export const ContactForm = () => {
               </FloatingLabel>{' '}
             </Col>
           </Row>
-          <Row className="d-flex" xxl={2} lg={2}>
+          <Row className="d-flex" xxl={2} lg={2} sm={2}>
             <Col xxl={6}>
               <FloatingLabel
                 controlId="floatingPassword"

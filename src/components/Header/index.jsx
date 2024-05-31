@@ -14,7 +14,13 @@ export const Header = () => {
     <header className={styles.root}>
       <Container className={styles.container}>
         <Row className={styles.top}>
-          <Col xxl={4} xl={4} className="d-flex align-items-center">
+          <Col
+            xxl={4}
+            xl={4}
+            lg={6}
+            sm={6}
+            className="d-flex align-items-center"
+          >
             <Image
               className={styles.myImg}
               width={50}
@@ -26,6 +32,8 @@ export const Header = () => {
           <Col
             xxl={8}
             xl={8}
+            lg={6}
+            sm={6}
             className="d-flex align-items-center justify-content-end "
           >
             <div className={styles.description}>
@@ -40,7 +48,7 @@ export const Header = () => {
           </Col>
         </Row>
         <Row className={styles.nav}>
-          <Navbar expand="lg">
+          <Navbar className="d-flex align-items-center" expand="lg">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav ">
               <Nav className="me-auto">
@@ -49,9 +57,16 @@ export const Header = () => {
                 <Nav.Link href="">Гарантии</Nav.Link>
                 <Nav.Link href="">Отзывы</Nav.Link>
               </Nav>
-            </Navbar.Collapse>{' '}
+            </Navbar.Collapse>
             <Button bsPrefix={styles.customBtn}>Оставить заявку</Button>
           </Navbar>
+        </Row>
+        <Row>
+          <div className={styles.descriptionBottom}>
+            <p>Доставляем товары из заграницы в Россию </p>
+            <p>Стоимость от 550 рублей за заказ </p>
+            <p>1$ = 93₽ | 1€ = 99₽ | 1¥ = 13₽ </p>
+          </div>
         </Row>
       </Container>
     </header>

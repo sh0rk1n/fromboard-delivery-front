@@ -6,14 +6,7 @@ export const Benefits = () => {
     <section className={styles.root}>
       <Container>
         <h1>Наши преимущества</h1>
-        <Row
-          xxl={3}
-          xl={2}
-          lg={2}
-          md={1}
-          className="mt-4"
-          style={{ paddingLeft: '24px' }}
-        >
+        <Row xxl={3} xl={2} lg={2} md={1} className="mt-4">
           <Col className={styles.benefits}>
             <Image src="../img/icon-1.svg" />
             <div>
@@ -55,7 +48,6 @@ export const Benefits = () => {
               </p>
             </div>
           </Col>
-
           <Col className={styles.benefits}>
             <Image src="../img/icon-5.svg" />
             <div>
@@ -66,7 +58,6 @@ export const Benefits = () => {
               </p>
             </div>
           </Col>
-
           <Col className={styles.benefits}>
             <Image src="../img/icon-6.svg" />
             <div>

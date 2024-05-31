@@ -7,7 +7,7 @@ export const Reviews = () => {
       <Container>
         <h1>Отзывы</h1>
 
-        <Row xxl={2} xl={2} lg={1} w>
+        <Row xxl={2} xl={2} lg={1} sm={1}>
           <Col>
             <div className={styles.review}>
               <h3>

@@ -3,7 +3,15 @@
 .root {
   padding-top: 40px;
   background: $gray-900;
+  margin: 0 !important;
 }
+
+.container {
+  @media (max-width: 1600px) {
+    max-width: 1152px !important;
+  }
+}
+
 .leftContent {
   div {
     display: flex;
@@ -17,11 +25,27 @@
     }
   }
   p {
+    width: 400px;
     font-weight: 400;
     font-size: 12px;
     line-height: 133%;
     color: $gray-50;
     margin-top: 8px;
+  }
+  @media (max-width: 1100px) {
+  }
+  @media (max-width: 900px) {
+    order: 3;
+    padding: 8px;
+
+    div {
+      justify-content: center;
+    }
+
+    p {
+      width: 650px;
+      text-align: center;
+    }
   }
 }
 
@@ -39,6 +63,28 @@
     &:hover {
       color: $purple-500;
     }
+  }
+  @media (max-width: 1600px) {
+    justify-content: flex-end;
+    a {
+      padding: 0 !important;
+      margin-right: 10px;
+    }
+    a:not(:last-child) {
+      padding: 0 !important;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    order: -1;
+    justify-content: center;
+
+    a:not(:last-child) {
+      padding-right: 24px !important;
+    }
+  }
+  @media (max-width: 900px) {
+    padding-bottom: 12px;
   }
 }
 
@@ -58,20 +104,51 @@
     line-height: 133%;
     color: $gray-50;
   }
+  @media (max-width: 1600px) {
+    h3 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 1100px) {
+    h3 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    order: 2;
+  }
 }
 
 .offert {
   display: flex;
   padding: 24px 0 40px 0;
+
   p {
     font-weight: 300;
     font-size: 12px;
     line-height: 133%;
     color: $gray-600;
   }
+
+  @media (max-width: 1100px) {
+    text-align: center;
+  }
 }
 
 .creater {
   text-align: right;
-  color: $gray-500;
+  p {
+    color: $gray-500;
+  }
+
+  @media (max-width: 1100px) {
+    padding: 8px;
+  }
 }

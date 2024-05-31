@@ -4,17 +4,17 @@ import styles from './Footer.module.scss';
 export const Footer = () => {
   return (
     <footer className={styles.root}>
-      <Container>
+      <Container className={styles.container}>
         <Row className="d-flex align-items-center">
-          <Col xxl={3} className={styles.leftContent}>
+          <Col xxl={3} xl={4} lg={6} className={styles.leftContent}>
             <div>
               <Image src="../img/logo.svg" />
               <h2>FromBoard Delivery</h2>
             </div>
-            <p>2023© Ни одно право не защищено, копируйте сколько влезет </p>
+            <p>2024© Ни одно право не защищено, копируйте сколько влезет </p>
           </Col>
-          <Col xxl={6} className={styles.nav}>
-            <Navbar expand="lg">
+          <Col xxl={6} xl={4} sm={12} className={styles.nav}>
+            <Navbar>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav ">
                 <Nav className="me-auto">
@@ -26,7 +26,7 @@ export const Footer = () => {
               </Navbar.Collapse>
             </Navbar>
           </Col>
-          <Col xxl={3} className={styles.rightContent}>
+          <Col xxl={3} xl={4} lg={6} sm={8} className={styles.rightContent}>
             <div>
               <h3>+7 (800) 123 45-67</h3>
               <p>Звонки по России бесплатны</p>
@@ -34,7 +34,7 @@ export const Footer = () => {
           </Col>
         </Row>
         <Row className={styles.offert}>
-          <Col xxl={8}>
+          <Col xxl={8} xl={8} lg={12} sm={12}>
             <p>
               НЕ ЯВЛЯЕТСЯ ПУБЛИЧНОЙ ОФЕРТОЙ. Просим обратить внимание на то, что
               цены носят информационный и ознакомительный характер, а значит ни
@@ -44,7 +44,7 @@ export const Footer = () => {
               окончательно и исчерпывающей
             </p>
           </Col>
-          <Col xxl={4} className={styles.creater}>
+          <Col xxl={4} xl={4} lg={7} sm={7} className={styles.creater}>
             <p>Created by sh0rk1n</p>
           </Col>
         </Row>

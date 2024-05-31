@@ -38,7 +38,7 @@ export const Hero = () => {
                 Посчитайте, сколько будет стоить перевозка <br /> покупки из
                 зарубежа
               </p>
-              <div style={{ padding: '0 100px' }}>
+              <div className={styles.label}>
                 <FloatingLabel
                   controlId="floatingInput"
                   label="Имя"
@@ -47,7 +47,7 @@ export const Hero = () => {
                   <Form.Control type="name" placeholder="Danil" />
                 </FloatingLabel>
 
-                <Row className="d-flex" xxl={2} lg={2}>
+                <Row className="d-flex" xxl={2} lg={2} sm={2}>
                   <Col xxl={6}>
                     <FloatingLabel
                       controlId="floatingPassword"
@@ -67,7 +67,7 @@ export const Hero = () => {
                     </FloatingLabel>{' '}
                   </Col>
                 </Row>
-                <Row className="d-flex" xxl={2} lg={2}>
+                <Row className="d-flex" xxl={2} lg={2} sm={2}>
                   <Col xxl={6}>
                     <FloatingLabel
                       controlId="floatingPassword"
@@ -92,7 +92,7 @@ export const Hero = () => {
                   </Col>
                 </Row>
 
-                <Row className="d-flex" xxl={2} lg={2}>
+                <Row className="d-flex" xxl={2} lg={2} sm={2}>
                   <Col xxl={6}>
                     <FloatingLabel
                       controlId="floatingPassword"
@@ -116,7 +116,7 @@ export const Hero = () => {
                     </FloatingLabel>{' '}
                   </Col>
                 </Row>
-                <Row className="d-flex" xxl={2} lg={2}>
+                <Row className="d-flex" xxl={2} lg={2} sm={2}>
                   <Col xxl={6}>
                     <FloatingLabel
                       controlId="floatingPassword"
