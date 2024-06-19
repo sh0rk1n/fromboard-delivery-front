@@ -50,8 +50,8 @@ export const Header = () => {
         <Row className={styles.nav}>
           <Navbar className="d-flex align-items-center" expand="lg">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav ">
-              <Nav className="me-auto">
+            <Navbar.Collapse className="d-flex" id="basic-navbar-nav ">
+              <Nav className="me-auto d-flex">
                 <Nav.Link href="">Калькулятор</Nav.Link>
                 <Nav.Link href="">О нас</Nav.Link>
                 <Nav.Link href="">Гарантии</Nav.Link>

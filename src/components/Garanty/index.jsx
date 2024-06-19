@@ -19,15 +19,15 @@ export const Garanty = () => {
           </Col>
           <Col>
             <Image src="../img/sample-2.svg" />
-            <h3>Свидетельство о регистрации в РФ</h3>
+            <h3>Свидетельство о регистрации в США</h3>
           </Col>
           <Col>
             <Image src="../img/sample-3.svg" />
-            <h3>Свидетельство о регистрации в РФ</h3>
+            <h3>Свидетельство о регистрации в Китае</h3>
           </Col>
           <Col>
             <Image src="../img/sample-4.svg" />
-            <h3>Свидетельство о регистрации в РФ</h3>
+            <h3>Свидетельство о регистрации в Великобритании</h3>
           </Col>
         </Row>
         <div className={styles.myCustomBtn}>

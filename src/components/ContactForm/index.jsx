@@ -18,39 +18,39 @@ export const ContactForm = () => {
             <Col xxl={6}>
               <FloatingLabel
                 controlId="floatingPassword"
-                label="Почта"
+                label="Имя"
                 className={styles.input}
               >
-                <Form.Control type="text" placeholder="Почта" />
+                <Form.Control type="text" placeholder="Имя" />
               </FloatingLabel>
             </Col>
             <Col xxl={6}>
               <FloatingLabel
                 controlId="floatingPassword"
-                label="Телефон"
+                label="Почта"
                 className={styles.input}
               >
-                <Form.Control type="password" placeholder="Password" />
-              </FloatingLabel>{' '}
+                <Form.Control type="text" placeholder="Почта" />
+              </FloatingLabel>
             </Col>
           </Row>
           <Row className="d-flex" xxl={2} lg={2} sm={2}>
             <Col xxl={6}>
               <FloatingLabel
                 controlId="floatingPassword"
-                label="Почта"
+                label="Телефон"
                 className={styles.input}
               >
-                <Form.Control type="text" placeholder="Почта" />
+                <Form.Control type="text" placeholder="Телефон" />
               </FloatingLabel>
             </Col>
             <Col xxl={6}>
               <FloatingLabel
                 controlId="floatingPassword"
-                label="Телефон"
+                label="Тема вопроса"
                 className={styles.input}
               >
-                <Form.Control type="password" placeholder="Password" />
+                <Form.Control type="text" placeholder="Тема вопроса" />
               </FloatingLabel>{' '}
             </Col>
           </Row>
