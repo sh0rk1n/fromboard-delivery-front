@@ -1,13 +1,13 @@
 import React from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
-import styles from './Benefits.module.scss';
+import cls from './Benefits.module.scss';
 export const Benefits = () => {
   return (
-    <section className={styles.root}>
+    <section className={cls.root}>
       <Container>
         <h1>Наши преимущества</h1>
         <Row xxl={3} xl={2} lg={2} md={1} className="mt-4">
-          <Col className={styles.benefits}>
+          <Col className={cls.benefits}>
             <Image src="../img/icon-1.svg" />
             <div>
               <h2>Растоможка груза</h2>
@@ -17,7 +17,7 @@ export const Benefits = () => {
               </p>
             </div>
           </Col>
-          <Col className={styles.benefits}>
+          <Col className={cls.benefits}>
             <Image src="../img/icon-2.svg" />
             <div>
               <h2>Надёжная упаковка</h2>
@@ -28,7 +28,7 @@ export const Benefits = () => {
               </p>
             </div>
           </Col>
-          <Col className={styles.benefits}>
+          <Col className={cls.benefits}>
             <Image src="../img/icon-3.svg" />
             <div>
               <h2>Быстро и выгодно</h2>
@@ -38,7 +38,7 @@ export const Benefits = () => {
               </p>
             </div>
           </Col>
-          <Col className={styles.benefits}>
+          <Col className={cls.benefits}>
             <Image src="../img/icon-4.svg" />
             <div>
               <h2>Удобный сервис</h2>
@@ -48,7 +48,7 @@ export const Benefits = () => {
               </p>
             </div>
           </Col>
-          <Col className={styles.benefits}>
+          <Col className={cls.benefits}>
             <Image src="../img/icon-5.svg" />
             <div>
               <h2>Прозрачность работы</h2>
@@ -58,7 +58,7 @@ export const Benefits = () => {
               </p>
             </div>
           </Col>
-          <Col className={styles.benefits}>
+          <Col className={cls.benefits}>
             <Image src="../img/icon-6.svg" />
             <div>
               <h2>Страхование груза</h2>

@@ -1,24 +1,24 @@
 import {
   Header,
   Hero,
+  Reviews,
   Benefits,
   Garanty,
-  Reviews,
   ContactForm,
-} from './components';
-import { Footer } from './components/Footer';
+  Footer,
+} from '../components';
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
       <Hero />
+      <Reviews />
       <Benefits />
       <Garanty />
-      <Reviews />
       <ContactForm />
       <Footer />
-    </>
+    </div>
   );
 }
 

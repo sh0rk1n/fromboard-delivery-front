@@ -1,16 +1,15 @@
 import React from 'react';
-import { Col, Container, Image, Nav, Navbar, Row } from 'react-bootstrap';
+import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
 import styles from './Footer.module.scss';
+import { Logo } from '../../shared/ui/Logo/Logo';
+
 export const Footer = () => {
   return (
     <footer className={styles.root}>
       <Container className={styles.container}>
         <Row className="d-flex align-items-center">
           <Col xxl={3} xl={4} lg={6} className={styles.leftContent}>
-            <div>
-              <Image src="../img/logo.svg" />
-              <h2>FromBoard Delivery</h2>
-            </div>
+            <Logo />
             <p>2024© Ни одно право не защищено, копируйте сколько влезет </p>
           </Col>
           <Col xxl={6} xl={4} sm={12} className={styles.nav}>

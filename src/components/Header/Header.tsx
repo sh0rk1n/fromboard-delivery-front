@@ -1,18 +1,11 @@
-import {
-  Button,
-  Col,
-  Container,
-  Image,
-  Nav,
-  Navbar,
-  Row,
-} from 'react-bootstrap';
+import { Button, Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
 import styles from './Header.module.scss';
+import { Logo } from '../../shared/ui/Logo/Logo';
 
 export const Header = () => {
   return (
     <header className={styles.root}>
-      <Container className={styles.container}>
+      <Container>
         <Row className={styles.top}>
           <Col
             xxl={4}
@@ -21,13 +14,7 @@ export const Header = () => {
             sm={6}
             className="d-flex align-items-center"
           >
-            <Image
-              className={styles.myImg}
-              width={50}
-              height={74}
-              src="../img/logo.svg"
-            />
-            <h2>FromBoard Delivery</h2>
+            <Logo />
           </Col>
           <Col
             xxl={8}

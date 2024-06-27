@@ -1,0 +1,42 @@
+// bootstrap imports
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1600px,
+);
+@import '../../../node_modules/bootstrap';
+
+//
+@import 'variables/global';
+@import 'reset';
+
+@font-face {
+  font-family: 'Formula';
+  src: url('../../shared/assets/fonts/Formular.ttf') format('ttf');
+}
+
+// bootstrap adaptive
+.container {
+  @media (min-width: 1800px) {
+    max-width: 1536px !important;
+  }
+  @media (max-width: 1600px) {
+    max-width: 1026px;
+  }
+  @media (max-width: 1100px) {
+    padding: 0 100px;
+  }
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 30px;
+}

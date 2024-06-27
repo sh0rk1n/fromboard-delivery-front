@@ -1,8 +1,6 @@
-@import '../../scss/variables';
-
 .root {
   padding-top: 40px;
-  background: $gray-900;
+  background: var(--gray-900);
   margin: 0 !important;
 }
 
@@ -13,27 +11,19 @@
 }
 
 .leftContent {
-  div {
-    display: flex;
-    align-items: center;
-    h2 {
-      font-weight: 900;
-      font-size: 24px;
-      line-height: 133%;
-      color: $gray-50;
-      margin-left: 4px;
-    }
+  h2 {
+    color: var(--gray-50);
   }
+
   p {
     width: 400px;
     font-weight: 400;
     font-size: 12px;
     line-height: 133%;
-    color: $gray-50;
+    color: var(--gray-50);
     margin-top: 8px;
   }
-  @media (max-width: 1100px) {
-  }
+
   @media (max-width: 900px) {
     order: 3;
     padding: 8px;
@@ -56,12 +46,12 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 150%;
-    color: $gray-50;
+    color: var(--gray-50);
     &:not(:last-child) {
       padding-right: 24px !important;
     }
     &:hover {
-      color: $purple-500;
+      color: var(--purple-500);
     }
   }
   @media (max-width: 1600px) {
@@ -96,13 +86,13 @@
     font-weight: 900;
     font-size: 36px;
     line-height: 111%;
-    color: $gray-50;
+    color: var(--gray-50);
   }
   p {
     font-weight: 400;
     font-size: 27px;
     line-height: 133%;
-    color: $gray-50;
+    color: var(--gray-50);
   }
   @media (max-width: 1600px) {
     h3 {
@@ -134,7 +124,7 @@
     font-weight: 300;
     font-size: 12px;
     line-height: 133%;
-    color: $gray-600;
+    color: var(--gray-600);
   }
 
   @media (max-width: 1100px) {
@@ -145,7 +135,7 @@
 .creater {
   text-align: right;
   p {
-    color: $gray-500;
+    color: var(--gray-500);
   }
 
   @media (max-width: 1100px) {

@@ -13,7 +13,7 @@ import form from '../ContactForm/ContactForm.module.scss';
 export const Hero = () => {
   return (
     <section className={styles.root}>
-      <Container className={styles.container}>
+      <Container>
         <Col className={styles.content}>
           <Col>
             <div className={styles.description}>
@@ -28,7 +28,7 @@ export const Hero = () => {
                   мира и получать их в России
                 </p>
               </div>
-              <Image src={'../img/hero.jpg'} />
+              <Image src="../img/hero.jpg" />
             </div>
           </Col>
           <Col>

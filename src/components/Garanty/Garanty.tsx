@@ -1,6 +1,7 @@
 import React from 'react';
-import styles from './Garanty.module.scss';
 import { Button, Col, Container, Image, Row } from 'react-bootstrap';
+import styles from './Garanty.module.scss';
+
 export const Garanty = () => {
   return (
     <section className={styles.root}>
