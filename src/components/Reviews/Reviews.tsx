@@ -22,7 +22,7 @@ export const Reviews = () => {
             </div>
           </Col>
           <Col>
-            <div className={styles.review}>
+            <div className={`${styles.review} ${styles.secondRev}`}>
               <h3>
                 Я уже несколько лет заказываю дизайнерскую одежду из Франции
                 через ваш сервис, и он никогда меня не подводил. Важно иметь

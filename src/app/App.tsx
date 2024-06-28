@@ -13,9 +13,9 @@ function App() {
     <div>
       <Header />
       <Hero />
-      <Reviews />
       <Benefits />
       <Garanty />
+      <Reviews />
       <ContactForm />
       <Footer />
     </div>
