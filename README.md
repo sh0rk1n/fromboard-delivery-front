@@ -1,5 +1,5 @@
 # FROMBOARD DELIVERY LAYOUT
-## Посмотреть: https://sh0rk1n.github.io/fromboard-delivery-front/
+## Посмотреть: https://sh0rk1n.github.io/fromboard-delivery-layout
 ### React + React Boostrap
 ##### Бутстрап не понравился, слишком много бойлерплейт кода + декомпозировать неудобно.
 ###### До 800px работает нормик, на мобилах будут проблемы, лучше переделать на MUI/headlessUi
