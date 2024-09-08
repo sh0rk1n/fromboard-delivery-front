@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/fromboard-delivery-front/static/css/main.bb7e283a.css",
-    "main.js": "/fromboard-delivery-front/static/js/main.7a0680e1.js",
-    "static/media/sample-1.svg": "/fromboard-delivery-front/static/media/sample-1.d7c3abd92846bd2754a1254a4ca44f9d.svg",
-    "static/media/hero.jpg": "/fromboard-delivery-front/static/media/hero.77c13bf106398ed493a8.jpg",
-    "static/media/sample-3.svg": "/fromboard-delivery-front/static/media/sample-3.629d1dd530564ba9d2ca3a7955b5c55a.svg",
-    "static/media/sample-4.svg": "/fromboard-delivery-front/static/media/sample-4.db6b3e2220905ef0a26632998fcb4cea.svg",
-    "static/media/sample-2.svg": "/fromboard-delivery-front/static/media/sample-2.3bbaa80d1268bead581722b0f611b4b6.svg",
-    "static/media/Formular.ttf": "/fromboard-delivery-front/static/media/Formular.6d3c9849d2a874207220.ttf",
-    "static/media/icon-4.svg": "/fromboard-delivery-front/static/media/icon-4.c6f0090e94f8342673b2d6fadbe1ca81.svg",
-    "static/media/icon-1.svg": "/fromboard-delivery-front/static/media/icon-1.9aa2c7439d5a56e96124c4f50ea18141.svg",
-    "static/media/icon-6.svg": "/fromboard-delivery-front/static/media/icon-6.92315b6761078f3ae8934d70c650b0ea.svg",
-    "static/media/icon-3.svg": "/fromboard-delivery-front/static/media/icon-3.a9d5eef761579d99e180dee8e167c7dc.svg",
-    "static/media/icon-5.svg": "/fromboard-delivery-front/static/media/icon-5.3ab696143ac3c4ab9cbaa95a0e25918b.svg",
-    "static/media/logo.svg": "/fromboard-delivery-front/static/media/logo.aa8fd78234dd4784f252a5087a24be8d.svg",
-    "static/media/quotes.svg": "/fromboard-delivery-front/static/media/quotes.a4a6d879f1f3920d97a4a513c6065749.svg",
-    "static/media/icon-2.svg": "/fromboard-delivery-front/static/media/icon-2.8e6f493fd7a43b7cf8518dc1865b2410.svg",
-    "index.html": "/fromboard-delivery-front/index.html",
-    "main.bb7e283a.css.map": "/fromboard-delivery-front/static/css/main.bb7e283a.css.map",
-    "main.7a0680e1.js.map": "/fromboard-delivery-front/static/js/main.7a0680e1.js.map"
+    "main.css": "/fromboard-delivery-layout/static/css/main.f6d02ac1.css",
+    "main.js": "/fromboard-delivery-layout/static/js/main.6216cf46.js",
+    "static/media/sample-1.svg": "/fromboard-delivery-layout/static/media/sample-1.d7c3abd92846bd2754a1254a4ca44f9d.svg",
+    "static/media/hero.jpg": "/fromboard-delivery-layout/static/media/hero.77c13bf106398ed493a8.jpg",
+    "static/media/sample-3.svg": "/fromboard-delivery-layout/static/media/sample-3.629d1dd530564ba9d2ca3a7955b5c55a.svg",
+    "static/media/sample-4.svg": "/fromboard-delivery-layout/static/media/sample-4.db6b3e2220905ef0a26632998fcb4cea.svg",
+    "static/media/sample-2.svg": "/fromboard-delivery-layout/static/media/sample-2.3bbaa80d1268bead581722b0f611b4b6.svg",
+    "static/media/Formular.ttf": "/fromboard-delivery-layout/static/media/Formular.6d3c9849d2a874207220.ttf",
+    "static/media/icon-4.svg": "/fromboard-delivery-layout/static/media/icon-4.c6f0090e94f8342673b2d6fadbe1ca81.svg",
+    "static/media/icon-1.svg": "/fromboard-delivery-layout/static/media/icon-1.9aa2c7439d5a56e96124c4f50ea18141.svg",
+    "static/media/icon-6.svg": "/fromboard-delivery-layout/static/media/icon-6.92315b6761078f3ae8934d70c650b0ea.svg",
+    "static/media/icon-3.svg": "/fromboard-delivery-layout/static/media/icon-3.a9d5eef761579d99e180dee8e167c7dc.svg",
+    "static/media/icon-5.svg": "/fromboard-delivery-layout/static/media/icon-5.3ab696143ac3c4ab9cbaa95a0e25918b.svg",
+    "static/media/logo.svg": "/fromboard-delivery-layout/static/media/logo.aa8fd78234dd4784f252a5087a24be8d.svg",
+    "static/media/quotes.svg": "/fromboard-delivery-layout/static/media/quotes.a4a6d879f1f3920d97a4a513c6065749.svg",
+    "static/media/icon-2.svg": "/fromboard-delivery-layout/static/media/icon-2.8e6f493fd7a43b7cf8518dc1865b2410.svg",
+    "index.html": "/fromboard-delivery-layout/index.html",
+    "main.f6d02ac1.css.map": "/fromboard-delivery-layout/static/css/main.f6d02ac1.css.map",
+    "main.6216cf46.js.map": "/fromboard-delivery-layout/static/js/main.6216cf46.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb7e283a.css",
-    "static/js/main.7a0680e1.js"
+    "static/css/main.f6d02ac1.css",
+    "static/js/main.6216cf46.js"
   ]
 }
