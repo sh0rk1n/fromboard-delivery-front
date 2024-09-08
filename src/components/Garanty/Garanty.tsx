@@ -1,5 +1,9 @@
 import React from 'react';
 import { Button, Col, Container, Image, Row } from 'react-bootstrap';
+import sample_1 from '../../shared/assets/img/sample-1.svg'
+import sample_2 from '../../shared/assets/img/sample-2.svg'
+import sample_3 from '../../shared/assets/img/sample-3.svg'
+import sample_4 from '../../shared/assets/img/sample-4.svg'
 import styles from './Garanty.module.scss';
 
 export const Garanty = () => {
@@ -15,19 +19,19 @@ export const Garanty = () => {
         </p>
         <Row xxl={4} xl={2}>
           <Col>
-            <Image src="../img/sample-1.svg" />
+            <Image src={sample_1}/>
             <h3>Свидетельство о регистрации в РФ</h3>
           </Col>
           <Col>
-            <Image src="../img/sample-2.svg" />
+            <Image src={sample_2} />
             <h3>Свидетельство о регистрации в США</h3>
           </Col>
           <Col>
-            <Image src="../img/sample-3.svg" />
+            <Image src={sample_3} />
             <h3>Свидетельство о регистрации в Китае</h3>
           </Col>
           <Col>
-            <Image src="../img/sample-4.svg" />
+            <Image src={sample_4} />
             <h3>Свидетельство о регистрации в Великобритании</h3>
           </Col>
         </Row>

@@ -8,8 +8,10 @@ import {
   Button,
   Row,
 } from 'react-bootstrap';
+import hero from '../../shared/assets/img/hero.jpg'
 import styles from './Hero.module.scss';
 import form from '../ContactForm/ContactForm.module.scss';
+
 export const Hero = () => {
   return (
     <section className={styles.root}>
@@ -28,7 +30,7 @@ export const Hero = () => {
                   мира и получать их в России
                 </p>
               </div>
-              <Image src="../img/hero.jpg" />
+              <Image src={hero} />
             </div>
           </Col>
           <Col>

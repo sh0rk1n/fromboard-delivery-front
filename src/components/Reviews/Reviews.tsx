@@ -1,6 +1,8 @@
 import React from 'react';
-import styles from './Reviews.module.scss';
 import { Col, Container, Image, Row } from 'react-bootstrap';
+import quotes from '../../shared/assets/img/quotes.svg'
+import styles from './Reviews.module.scss';
+
 export const Reviews = () => {
   return (
     <section className={styles.root}>
@@ -17,7 +19,7 @@ export const Reviews = () => {
               </h3>
               <div>
                 <p>Анна</p>
-                <Image src="../img/quotes.svg" />
+                <Image src={quotes} />
               </div>
             </div>
           </Col>
@@ -31,7 +33,7 @@ export const Reviews = () => {
               </h3>
               <div>
                 <p>Алексей</p>
-                <Image src="../img/quotes.svg" />
+                <Image src={quotes} />
               </div>
             </div>
           </Col>
